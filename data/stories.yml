@@ -52,7 +52,7 @@ stories:
   - action: utter_interest_info
   
   
- - story: contact path
+- story: contact path
   steps:
   - intent: greet
   - action: utter_greet
@@ -64,3 +64,14 @@ stories:
   - action: utter_contact_info
   - intent: goodbye
   - action: utter_goodbye
+  
+  
+- story: qualification_and_updates
+  steps:
+  - intent: Qualification
+  - action: utter_qualification
+  - intent: course_updates
+  - action: utter_updates
+  
+
+
