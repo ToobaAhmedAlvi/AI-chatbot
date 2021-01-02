@@ -158,3 +158,18 @@ nlu:
     - How can I get the latest updates from your website?
     - Do you provide email services for updating your users?
     - Do you have any social media page?
+    
+- intent: course_updates
+  examples: |
+    -  Do you frequently update your courses depending upon the recent tech?
+    -  Will I be able to learn the latest technology from your courses?
+
+
+- intent: Qualification
+  examples: |
+    -  I have primary education. Now I want to learn more in the CS field.
+    -  I am a secondary level student.
+    -  I own a bachelor’s degree. I want to polish my skills further
+    -  I am an undergrad student. I am finding courses that somehow relate to my academics.
+    -  I have done a diploma in CS. What should I do to learn more in this field?
+
