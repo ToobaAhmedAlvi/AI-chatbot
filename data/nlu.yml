@@ -137,3 +137,24 @@ nlu:
     - What should I do to improve my interest?
     - Can you help me to find my interest?
     - I am confuse about my interest.
+
+
+
+- intent: Course_details
+  examples: |
+    - do you have the service of providing recorded lecture and live sessions to learners?
+    - does this site provide recorded lecture and live sessions to learners?
+    - does this site provide recorded lecture and live sessions to students?
+    - do you provide live sessions or pre-recorded lectures?
+    - will these courses help me in my academics?
+    - how can these courses help me in my career?
+    - how can these courses help me in my academics?
+    - will these helpful for my skills?
+    - will these helpful for my career?
+    - will these courses help me to enhance my current knowledge and skills?
+
+- intent: contact_info
+  examples: |
+    - How can I get the latest updates from your website?
+    - Do you provide email services for updating your users?
+    - Do you have any social media page?
