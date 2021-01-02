@@ -120,3 +120,20 @@ nlu:
     - Can I access all training?
     - I am interested in stories
     - I need more information about the courses and training
+
+- intent: web_info
+  examples: |
+    - What services do you provide?
+    - Tell me about your website services?
+    - Which kind of services can I get from this site?
+    - I want to know about your website services.
+    - Which type of services are available in your website?
+
+- intent: interest
+  examples: |
+    - How could I figure out my interest?
+    - I have a keen interest in the computer science field? What should I do to improve it?
+    - How could I know my area of interest in a specific field?
+    - What should I do to improve my interest?
+    - Can you help me to find my interest?
+    - I am confuse about my interest.
