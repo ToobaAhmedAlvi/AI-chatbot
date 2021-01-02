@@ -54,6 +54,12 @@ responses:
   utter_interest_info:
   - text: "No worries!. To figure out your area of interest in any particular field you must take some time to notice the things in your life that brings you the most joy, start to pay attention, keep doing more of them. Also be sure to take guide from the experienced one's. If you already find your interest like in Computer Science etc. start exploring them. Always stay open and flexible without attachment to where you'll end up."
 
+utter_course_details:
+  - text: "We provide recorded courses so that users can learn them with their own time feasibility. These courses will put a very positive impact on your academics and will give you a head start in the respective fields."
+
+  utter_contact_info:
+  - text: "You can keep in touch with us by visiting our website regularly. Moreover, we will also update you through email and our social media pages."
+
 actions:
 
 
