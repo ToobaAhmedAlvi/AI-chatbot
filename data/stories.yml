@@ -50,3 +50,17 @@ stories:
   - action: utter_give_web_info
   - intent: interest
   - action: utter_interest_info
+  
+  
+ - story: contact path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: Course_details
+  - action: utter_course_details
+  - intent: contact_info
+  - action: utter_contact_info
+  - intent: goodbye
+  - action: utter_goodbye
