@@ -10,10 +10,12 @@ intents:
   - bot_challenge
   - kids_corner
   - employment
+  - help_info
+  - convince_login
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! Meow are you?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -32,10 +34,19 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_kids_corner:
-  - text: "There are separate story section for kids.You can click register to get more features to use"
+  - text: "There are separate story section fur kids.You can click register to get more features to use"
 
   utter_employment:
-  - text: "Yes we provide employment opportunities.Register to explore website"
+  - text: "Yes we provide employment oppawtunities.Register to explore website"
+  
+  
+  utter_help_info:
+  - text: "I can guide you how to login/register on the website and How to enroll all the courses step by step Step1: Click on Top right corner of the page for login/registration. step2: Fill Registration form and click on SIGN UP button. step3: You are Registered Successfully."
+  utter_convince_login:
+  - text: "If you want to access all courses and training then please login if you are already member, otherwise register yourself and get fruitful benefit from our digital platform."
+
+actions:
+
 
 session_config:
   session_expiration_time: 60
