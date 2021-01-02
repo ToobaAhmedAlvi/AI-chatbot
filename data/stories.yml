@@ -36,3 +36,10 @@ stories:
   - action: utter_kids_corner
   - intent: employment 
   - action: utter_employment
+  
+- story: info login 4
+  steps:
+    - intent: help_info
+    - action: utter_help_info
+    - intent: convince_login
+    - action: utter_convince_login
