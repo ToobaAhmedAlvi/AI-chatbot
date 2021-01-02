@@ -44,7 +44,7 @@ nlu:
   examples: |
     - no
     - n
-    - never
+    - nefur
     - I don't think so
     - don't like that
     - no way
@@ -52,34 +52,34 @@ nlu:
 
 - intent: mood_great
   examples: |
-    - perfect
+    - purrfect
     - great
     - amazing
-    - feeling like a king
+    - feline like a king
     - wonderful
-    - I am feeling very good
+    - I am feline furry good
     - I am great
     - I am amazing
     - I am going to save the world
     - super stoked
     - extremely good
-    - so so perfect
+    - so so purrfect
     - so good
-    - so perfect
+    - so purrfect
 
 - intent: mood_unhappy
   examples: |
     - my day was horrible
     - I am sad
-    - I don't feel very well
+    - I don't feel furry well
     - I am disappointed
     - super sad
     - I'm so sad
     - sad
-    - very sad
+    - furry sad
     - unhappy
     - not good
-    - not very good
+    - not furry good
     - extremly sad
     - so saad
     - so sad
@@ -94,13 +94,29 @@ nlu:
 - intent: kids_corner
   examples: |
     - where do kids study?
-    - where do I find registration panel for kids?
+    - where do I find registration panel fur kids?
     - where is kids corner?
-    - Is there any story posting for kids?
+    - Is there any story posting fur kids?
 
 - intent: employment
   examples: |
-    - I need a job
-    - I want to apply for a job
-    - Do you provide employment opportunities?
+    - I knead a job
+    - I want to apply fur a job
+    - Do you provide employment oppawtunities?
     - I am needy.Please help me find a job.
+    
+- intent: help_info
+  examples: |
+    - how could you help me?
+    - what you can do?
+    - what help you provide?
+    - do you help me?
+    - I need help?
+ 
+- intent: convince_login
+  examples: |
+    - I want to learn more.
+    - How I can access all the courses?
+    - Can I access all training?
+    - I am interested in stories
+    - I need more information about the courses and training
