@@ -43,3 +43,10 @@ stories:
     - action: utter_help_info
     - intent: convince_login
     - action: utter_convince_login
+
+- story: information
+  steps:
+  - intent: web_info
+  - action: utter_give_web_info
+  - intent: interest
+  - action: utter_interest_info
