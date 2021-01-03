@@ -73,5 +73,12 @@ stories:
   - intent: course_updates
   - action: utter_updates
   
+  - story: course and contribution info 
+  steps: 
+  - intent: course info 
+  - action: utter_course_info 
+  - intent: contribution 
+  -action: utter_contribution
+  
 
 
