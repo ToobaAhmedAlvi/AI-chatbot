@@ -16,6 +16,8 @@ intents:
   - interest
   - course_updates
   - Qualification
+  - course_info 
+  - contribution 
 
 responses:
   utter_greet:
