@@ -10,6 +10,12 @@ intents:
   - bot_challenge
   - kids_corner
   - employment
+  - help_info
+  - convince_login
+  - web_info
+  - interest
+  - course_updates
+  - Qualification
 
 responses:
   utter_greet:
@@ -36,7 +42,34 @@ responses:
 
   utter_employment:
   - text: "Yes we provide employment opportunities.Register to explore website"
+  utter_help_info:
+  - text: "I can guide you how to login/register on the website and How to enroll all the courses step by step Step1: Click on Top right corner of the page for login/registration. step2: Fill Registration form and click on SIGN UP button. step3: You are Registered Successfully."
+  
+  utter_convince_login:
+  - text: "If you want to access all courses and training then please login if you are already member, otherwise register yourself and get fruitful benefit from our digital platform."
 
+  utter_give_web_info:
+  - text: "We provide services of online courses, employment opportunity, Blogs and articles posting, training tips, Kids stories, etc."
+
+  utter_interest_info:
+  - text: "No worries!. To figure out your area of interest in any particular field you must take some time to notice the things in your life that brings you the most joy, start to pay attention, keep doing more of them. Also be sure to take guide from the experienced one's. If you already find your interest like in Computer Science etc. start exploring them. Always stay open and flexible without attachment to where you'll end up."
+
+  utter_course_details:
+  - text: "We provide recorded courses so that users can learn them with their own time feasibility. These courses will put a very positive impact on your academics and will give you a head start in the respective fields."
+
+  utter_contact_info:
+  - text: "You can keep in touch with us by visiting our website regularly. Moreover, we will also update you through email and our social media pages."
+ 
+  utter_updates:
+  - text: "Yes, we timely update our courses as soon as there is any recent technology introduced in the respective field."
+  
+  utter_qualification:
+  - text: "This website will provide you best courses to enhance your knowledge, as we aim to provide learning to people of every academic stage. Simply register to our site and get enroll to any course of your interest. You will have an opportunity to go through the course outline before enrolling into it."
+
+  utter_course_info: 
+  - text: "We have experienced teachers however, the courses are charged with no financial aid.The certificate will be emailed to you once you complete the course" 
+  utter_contribution: 
+  - text: "You can email us at info@learndigitaly.com or contact us through our website learn.prozameen.com"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

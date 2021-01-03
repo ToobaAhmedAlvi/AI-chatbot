@@ -36,3 +36,46 @@ stories:
   - action: utter_kids_corner
   - intent: employment 
   - action: utter_employment
+
+- story: info login 4
+  steps:
+    - intent: help_info
+    - action: utter_help_info
+    - intent: convince_login
+    - action: utter_convince_login
+
+- story: information
+  steps:
+  - intent: web_info
+  - action: utter_give_web_info
+  - intent: interest
+  - action: utter_interest_info
+  
+  
+- story: contact path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: Course_details
+  - action: utter_course_details
+  - intent: contact_info
+  - action: utter_contact_info
+  - intent: goodbye
+  - action: utter_goodbye
+  
+  
+- story: qualification_and_updates
+  steps:
+  - intent: Qualification
+  - action: utter_qualification
+  - intent: course_updates
+  - action: utter_updates
+  
+- story: course and contribution info 
+  steps: 
+  - intent: course info 
+  - action: utter_course_info 
+  - intent: contribution 
+  -action: utter_contribution
