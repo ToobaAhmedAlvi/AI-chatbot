@@ -172,4 +172,13 @@ nlu:
     -  I own a bachelor’s degree. I want to polish my skills further
     -  I am an undergrad student. I am finding courses that somehow relate to my academics.
     -  I have done a diploma in CS. What should I do to learn more in this field?
-
+- intent: course_info 
+  examples: | 
+    -are the courses free or there is any financial aid available? 
+    -will there be a certificate of completion after we complete the course?
+    -who are the teachers teaching the course?
+    
+- intent: contribution 
+  examples: | 
+    -is there any way of contributing my blog on your site 
+    -how to become a part of the prozameen educational  platform?
