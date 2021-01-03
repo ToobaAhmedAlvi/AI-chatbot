@@ -28,7 +28,6 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-
   
 - story: sad path 3
   steps:
@@ -54,7 +53,13 @@ stories:
   - action: utter_give_web_info
   - intent: interest
   - action: utter_interest_info
-  
+
+- story: registration path
+  steps:
+  - intent: registration
+  - action: utter_registration
+  - intent: employment
+  - action: utter_employment
   
 - story: contact path
   steps:
