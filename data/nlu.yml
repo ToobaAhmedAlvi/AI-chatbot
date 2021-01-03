@@ -44,7 +44,7 @@ nlu:
   examples: |
     - no
     - n
-    - never
+    - nefur
     - I don't think so
     - don't like that
     - no way
@@ -52,34 +52,34 @@ nlu:
 
 - intent: mood_great
   examples: |
-    - perfect
+    - purrfect
     - great
     - amazing
-    - feeling like a king
+    - feline like a king
     - wonderful
-    - I am feeling very good
+    - I am feline furry good
     - I am great
     - I am amazing
     - I am going to save the world
     - super stoked
     - extremely good
-    - so so perfect
+    - so so purrfect
     - so good
-    - so perfect
+    - so purrfect
 
 - intent: mood_unhappy
   examples: |
     - my day was horrible
     - I am sad
-    - I don't feel very well
+    - I don't feel furry well
     - I am disappointed
     - super sad
     - I'm so sad
     - sad
-    - very sad
+    - furry sad
     - unhappy
     - not good
-    - not very good
+    - not furry good
     - extremly sad
     - so saad
     - so sad
@@ -94,16 +94,20 @@ nlu:
 - intent: kids_corner
   examples: |
     - where do kids study?
-    - where do I find registration panel for kids?
+    - where do I find registration panel fur kids?
     - where is kids corner?
-    - Is there any story posting for kids?
+    - Is there any story posting fur kids?
 
 - intent: employment
   examples: |
-    - I need a job
-    - I want to apply for a job
-    - Do you provide employment opportunities?
+    - I knead a job
+    - I want to apply fur a job
+    - Do you provide employment oppawtunities?
     - I am needy.Please help me find a job.
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: help_info
   examples: |
     - how could you help me?
@@ -119,6 +123,10 @@ nlu:
     - Can I access all training?
     - I am interested in stories
     - I need more information about the courses and training
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: web_info
   examples: |
     - What services do you provide?
@@ -126,6 +134,10 @@ nlu:
     - Which kind of services can I get from this site?
     - I want to know about your website services.
     - Which type of services are available in your website?
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: interest
   examples: |
     - How could I figure out my interest?
@@ -134,6 +146,12 @@ nlu:
     - What should I do to improve my interest?
     - Can you help me to find my interest?
     - I am confuse about my interest.
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: Course_details
   examples: |
     - do you have the service of providing recorded lecture and live sessions to learners?
@@ -146,6 +164,10 @@ nlu:
     - will these helpful for my skills?
     - will these helpful for my career?
     - will these courses help me to enhance my current knowledge and skills?
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: contact_info
   examples: |
     - How can I get the latest updates from your website?
@@ -156,6 +178,11 @@ nlu:
   examples: |
     -  Do you frequently update your courses depending upon the recent tech?
     -  Will I be able to learn the latest technology from your courses?
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: Qualification
   examples: |
     -  I have primary education. Now I want to learn more in the CS field.
@@ -172,4 +199,8 @@ nlu:
 - intent: contribution 
   examples: | 
     -is there any way of contributing my blog on your site 
+<<<<<<< HEAD
     -how to become a part of the prozameen educational  platform?
+=======
+    -how to become a part of the prozameen educational  platform?
+>>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
