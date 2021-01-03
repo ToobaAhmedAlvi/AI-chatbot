@@ -31,6 +31,7 @@ nlu:
     - bye bye
     - see you later
 
+
 - intent: affirm
   examples: |
     - yes
@@ -192,15 +193,24 @@ nlu:
     -  I have done a diploma in CS. What should I do to learn more in this field?
 - intent: course_info 
   examples: | 
-    -are the courses free or there is any financial aid available? 
-    -will there be a certificate of completion after we complete the course?
-    -who are the teachers teaching the course?
-    
+    -  are the courses free or there is any financial aid available? 
+    -  will there be a certificate of completion after we complete the course?
+    -  who are the teachers teaching the course?
+- intent: registration
+  examples: | 
+    -  How  can I get registered ?
+    -  What is your registration process?
+    -  What are the requirements for registrations?
+    -  Show me the registration process
+    -  Please list the registration requirements
+    -  What are the total registration steps?
+
+  
 - intent: contribution 
   examples: | 
-    -is there any way of contributing my blog on your site 
+    -  is there any way of contributing my blog on your site 
 <<<<<<< HEAD
-    -how to become a part of the prozameen educational  platform?
+    -  how to become a part of the prozameen educational  platform?
 =======
-    -how to become a part of the prozameen educational  platform?
+    -  how to become a part of the prozameen educational  platform?
 >>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
