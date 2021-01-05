@@ -19,6 +19,43 @@ intents:
   - course_info 
   - contribution 
   - registration
+  - inform
+  - out_of_scope
+  - thankyou
+
+slots:
+  confirm_registration:
+    type: unfeaturized
+  full_name:
+    type: unfeaturized
+  email:
+    type: unfeaturized
+  education:
+    type: unfeaturized
+  registered_as:
+    type: unfeaturized
+  level_of_courses:
+    type: unfeaturized
+  previous_course:
+    type: unfeaturized
+  contact_no:
+    type: unfeaturized
+  interest:
+    type: unfeaturized
+  skill:
+    type: unfeaturized
+
+entities:
+  - full_name
+  - email
+  - education
+  - reg_as
+  - level
+  - previous_course
+  - contact_no
+  - interest
+  - skills
+
 
 responses:
   utter_greet:
@@ -109,6 +146,63 @@ actions:
   - text: "We have experienced teachers however, the courses are charged with no financial aid.The certificate will be emailed to you once you complete the course" 
   utter_contribution: 
   - text: "You can email us at info@learndigitaly.com or contact us through our website learn.prozameen.com"
+  
+  
+  
+  utter_confirm_reg:
+  - text: "Would you like to connect yourself to our website by registering yourself? That will take you to answer a few questions? "
+
+  utter_name:
+  - text: "Kindly tell us your full name?"
+
+  utter_email:
+  - text: "That will be great if you share your email with us. This will help us to keep you updated with the latest courses uploaded on our website."
+
+  utter_education:
+  - text: "For the betterment of your course's suggestion, will you please share your current educational qualification?"
+
+  utter_reg_as:
+  - text: "What do you want to be registered as? As a student or a teacher?"
+
+  utter_level_of_courses:
+  - text: "It will be appreciated if you tell us your level of course you would like to take/provide? (i.e. beginner, intermediate or advanced)"
+
+  utter_previous_courses:
+  - text: "Have you previously registered in any of our courses?"
+
+  utter_contact_no:
+  - text: "Please share your contact no."
+
+  utter_interest:
+  - text: "Are you fascinated by anything? If any kindly mention."
+
+  utter_skills:
+  - text: "Would you like to share any of your skills?"
+
+  utter_slots_values:
+  - text: "Here is the data we have collected from you:
+            - Registered?:  {confirm_registration}\n 
+            - Name: {name}\n
+            - Email: {email}\n
+            - Education: {education}\n
+            - Registered as: {reg_as}\n
+            - Level of Courses: {level}\n
+            - Previous Course: {previous_course}\n
+            - Contact no: {contact_no}\n
+            - Interest: {interest}\n
+            - Skills: {skills}"\n
+
+
+  utter_ask_continue:
+  - text: " Sorry, I didn't get you. Do you want to continue?"
+        
+  utter_no_worries:
+  - text: "No problem :)"
+  
+ forms:
+  - information_form
+ 
+ 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
