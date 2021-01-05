@@ -101,14 +101,14 @@ nlu:
 
 - intent: employment
   examples: |
-    - I knead a job
+    - I need a job
     - I want to apply fur a job
-    - Do you provide employment oppawtunities?
+    - Do you provide employment opportunities?
     - I am needy.Please help me find a job.
-<<<<<<< HEAD
-=======
+
+
     
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
+
 - intent: help_info
   examples: |
     - how could you help me?
@@ -124,10 +124,9 @@ nlu:
     - Can I access all training?
     - I am interested in stories
     - I need more information about the courses and training
-<<<<<<< HEAD
-=======
 
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
+
+
 - intent: web_info
   examples: |
     - What services do you provide?
@@ -135,10 +134,8 @@ nlu:
     - Which kind of services can I get from this site?
     - I want to know about your website services.
     - Which type of services are available in your website?
-<<<<<<< HEAD
-=======
 
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
+
 - intent: interest
   examples: |
     - How could I figure out my interest?
@@ -147,12 +144,8 @@ nlu:
     - What should I do to improve my interest?
     - Can you help me to find my interest?
     - I am confuse about my interest.
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
+    
+    
 - intent: Course_details
   examples: |
     - do you have the service of providing recorded lecture and live sessions to learners?
@@ -165,10 +158,9 @@ nlu:
     - will these helpful for my skills?
     - will these helpful for my career?
     - will these courses help me to enhance my current knowledge and skills?
-<<<<<<< HEAD
-=======
 
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
+
+
 - intent: contact_info
   examples: |
     - How can I get the latest updates from your website?
@@ -179,11 +171,8 @@ nlu:
   examples: |
     -  Do you frequently update your courses depending upon the recent tech?
     -  Will I be able to learn the latest technology from your courses?
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: Qualification
   examples: |
     -  I have primary education. Now I want to learn more in the CS field.
@@ -191,11 +180,15 @@ nlu:
     -  I own a bachelor’s degree. I want to polish my skills further
     -  I am an undergrad student. I am finding courses that somehow relate to my academics.
     -  I have done a diploma in CS. What should I do to learn more in this field?
+
+
 - intent: course_info 
   examples: | 
     -  are the courses free or there is any financial aid available? 
     -  will there be a certificate of completion after we complete the course?
     -  who are the teachers teaching the course?
+
+
 - intent: registration
   examples: | 
     -  How  can I get registered ?
@@ -209,8 +202,4 @@ nlu:
 - intent: contribution 
   examples: | 
     -  is there any way of contributing my blog on your site 
-<<<<<<< HEAD
     -  how to become a part of the prozameen educational  platform?
-=======
-    -  how to become a part of the prozameen educational  platform?
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
