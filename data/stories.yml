@@ -35,11 +35,11 @@ stories:
   - action: utter_kids_corner
   - intent: employment 
   - action: utter_employment
-<<<<<<< HEAD
 
-=======
+
+
   
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
+
 - story: info login 4
   steps:
     - intent: help_info
@@ -82,20 +82,10 @@ stories:
   - intent: course_updates
   - action: utter_updates
   
-<<<<<<< HEAD
+
 - story: course and contribution info 
-=======
-  - story: course and contribution info 
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
   steps: 
   - intent: course_info 
   - action: utter_course_info 
   - intent: contribution 
-<<<<<<< HEAD
-  -action: utter_contribution
-=======
-  -action: utter_contribution
-  
-
-
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
+  - action: utter_contribution
