@@ -81,20 +81,16 @@ responses:
   - text: "There are separate story section fur kids.You can click register to get more features to use"
 
   utter_employment:
-<<<<<<< HEAD
+
   - text: "Yes we provide employment opportunities.Register to explore website"
-=======
-  - text: "Yes we provide employment oppawtunities.Register to explore website"
   
   
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
+
   utter_help_info:
   - text: "I can guide you how to login/register on the website and How to enroll all the courses step by step Step1: Click on Top right corner of the page for login/registration. step2: Fill Registration form and click on SIGN UP button. step3: You are Registered Successfully."
   
   utter_convince_login:
   - text: "If you want to access all courses and training then please login if you are already member, otherwise register yourself and get fruitful benefit from our digital platform."
-<<<<<<< HEAD
-=======
 
   utter_give_web_info:
   - text: "We provide services of online courses, employment opportunity, Blogs and articles posting, training tips, Kids stories, etc."
@@ -121,7 +117,6 @@ responses:
   - text: "You can email us at info@learndigitaly.com or contact us through our website learn.prozameen.com"
 actions:
 
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 
   utter_give_web_info:
   - text: "We provide services of online courses, employment opportunity, Blogs and articles posting, training tips, Kids stories, etc."
