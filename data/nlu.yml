@@ -31,6 +31,7 @@ nlu:
     - bye bye
     - see you later
 
+
 - intent: affirm
   examples: |
     - yes
@@ -100,11 +101,18 @@ nlu:
 
 - intent: employment
   examples: |
-    - I knead a job
+    - I need a job
     - I want to apply fur a job
-    - Do you provide employment oppawtunities?
+    - Do you provide employment opportunities?
     - I am needy.Please help me find a job.
+<<<<<<< HEAD
     
+=======
+
+
+    
+
+>>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
 - intent: help_info
   examples: |
     - how could you help me?
@@ -120,6 +128,12 @@ nlu:
     - Can I access all training?
     - I am interested in stories
     - I need more information about the courses and training
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
 - intent: web_info
   examples: |
     - What services do you provide?
@@ -128,6 +142,10 @@ nlu:
     - I want to know about your website services.
     - Which type of services are available in your website?
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
 - intent: interest
   examples: |
     - How could I figure out my interest?
@@ -136,9 +154,14 @@ nlu:
     - What should I do to improve my interest?
     - Can you help me to find my interest?
     - I am confuse about my interest.
+<<<<<<< HEAD
 
 
 
+=======
+    
+    
+>>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
 - intent: Course_details
   examples: |
     - do you have the service of providing recorded lecture and live sessions to learners?
@@ -151,6 +174,12 @@ nlu:
     - will these helpful for my skills?
     - will these helpful for my career?
     - will these courses help me to enhance my current knowledge and skills?
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
 - intent: contact_info
   examples: |
     - How can I get the latest updates from your website?
@@ -170,14 +199,28 @@ nlu:
     -  I own a bachelor’s degree. I want to polish my skills further
     -  I am an undergrad student. I am finding courses that somehow relate to my academics.
     -  I have done a diploma in CS. What should I do to learn more in this field?
+
+
 - intent: course_info 
   examples: | 
-    -are the courses free or there is any financial aid available? 
-    -will there be a certificate of completion after we complete the course?
-    -who are the teachers teaching the course?
-    
+    -  are the courses free or there is any financial aid available? 
+    -  will there be a certificate of completion after we complete the course?
+    -  who are the teachers teaching the course?
+
+
+- intent: registration
+  examples: | 
+    -  How  can I get registered ?
+    -  What is your registration process?
+    -  What are the requirements for registrations?
+    -  Show me the registration process
+    -  Please list the registration requirements
+    -  What are the total registration steps?
+
+  
 - intent: contribution 
   examples: | 
+<<<<<<< HEAD
     -is there any way of contributing my blog on your site 
     -how to become a part of the prozameen educational  platform?
 - intent: out_of_scope
@@ -318,3 +361,7 @@ nlu:
     - update me to [xyz](contact) with your latest offers and courses.
     - I want to have updates at [xyz](contact)
     - i would like to have updates at [xyz](contact)
+=======
+    -  is there any way of contributing my blog on your site 
+    -  how to become a part of the prozameen educational  platform?
+>>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456

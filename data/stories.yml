@@ -28,7 +28,6 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-
   
 - story: sad path 3
   steps:
@@ -37,7 +36,14 @@ stories:
   - intent: employment 
   - action: utter_employment
 
+<<<<<<< HEAD
   
+=======
+
+
+  
+
+>>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
 - story: info login 4
   steps:
   - intent: help_info
@@ -51,7 +57,13 @@ stories:
   - action: utter_give_web_info
   - intent: interest
   - action: utter_interest_info
-  
+
+- story: registration path
+  steps:
+  - intent: registration
+  - action: utter_registration
+  - intent: employment
+  - action: utter_employment
   
 - story: contact path
   steps:
@@ -74,12 +86,17 @@ stories:
   - intent: course_updates
   - action: utter_updates
   
+<<<<<<< HEAD
+=======
+
+>>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
 - story: course and contribution info 
   steps: 
   - intent: course_info 
   - action: utter_course_info 
   - intent: contribution 
   - action: utter_contribution
+<<<<<<< HEAD
   
 - story: asking_questions
   steps:
@@ -144,3 +161,5 @@ stories:
   - action: utter_confirm_reg
   - intent: deny
   - action: utter_goodbye
+=======
+>>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
