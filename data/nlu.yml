@@ -104,10 +104,7 @@ nlu:
     - I want to apply fur a job
     - Do you provide employment oppawtunities?
     - I am needy.Please help me find a job.
-<<<<<<< HEAD
-=======
     
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: help_info
   examples: |
     - how could you help me?
@@ -123,10 +120,6 @@ nlu:
     - Can I access all training?
     - I am interested in stories
     - I need more information about the courses and training
-<<<<<<< HEAD
-=======
-
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: web_info
   examples: |
     - What services do you provide?
@@ -134,10 +127,7 @@ nlu:
     - Which kind of services can I get from this site?
     - I want to know about your website services.
     - Which type of services are available in your website?
-<<<<<<< HEAD
-=======
 
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: interest
   examples: |
     - How could I figure out my interest?
@@ -146,12 +136,9 @@ nlu:
     - What should I do to improve my interest?
     - Can you help me to find my interest?
     - I am confuse about my interest.
-<<<<<<< HEAD
-=======
 
 
 
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: Course_details
   examples: |
     - do you have the service of providing recorded lecture and live sessions to learners?
@@ -164,10 +151,6 @@ nlu:
     - will these helpful for my skills?
     - will these helpful for my career?
     - will these courses help me to enhance my current knowledge and skills?
-<<<<<<< HEAD
-=======
-
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: contact_info
   examples: |
     - How can I get the latest updates from your website?
@@ -178,11 +161,8 @@ nlu:
   examples: |
     -  Do you frequently update your courses depending upon the recent tech?
     -  Will I be able to learn the latest technology from your courses?
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
 - intent: Qualification
   examples: |
     -  I have primary education. Now I want to learn more in the CS field.
@@ -199,8 +179,142 @@ nlu:
 - intent: contribution 
   examples: | 
     -is there any way of contributing my blog on your site 
-<<<<<<< HEAD
     -how to become a part of the prozameen educational  platform?
-=======
-    -how to become a part of the prozameen educational  platform?
->>>>>>> 5cd25f57c5faa34c9f6625c60d8599537b790810
+- intent: out_of_scope
+  examples: |
+    - that's not I want
+    - wait stop
+    - you are no help
+    - this is no help at all
+    - this is not what i expected
+    - how old are you
+    - i want to order a pizza
+    - tell me the whether
+    - this is not working
+    - i already told you that
+    - don't like that
+    - stop asking
+    - don't want to answer these
+    - nevermind
+    - hahaha
+    - hehehehe
+    - i just changed my mind
+    - don't want to answer anymore
+    - that's crap
+    - i want to do something else.
+    - today is my birthday
+    - i have alot of things to do
+    - i can't answer anymore
+    - i have to go.
+    - good question
+    - that's unexpected
+    - don't ask this
+    - i don't want to answer this
+    - skip it.
+    - something else please.
+    - ok quite now.
+    - that's enough
+    - it is too much
+    - i didn't thought to answer it.
+    - ok that's all from my side
+    - i have nothing else to tell you.
+    - that's enough from my side.
+    - this is it.
+    - change my plan.
+    - don't want to tell you that.
+    - can you please skip this.
+    - can you suggest me a good online shopping store.
+    - how can i get 2 pizza in a price of one.
+    - discard what i said.
+    - will i get any financial benefit other than the academics.
+    - how can i get full marks
+    - how can i get hihest scores in class
+
+
+- intent: thankyou
+  examples: |
+    - thanks
+    - thankyou
+    - so sweet of you
+    - that's sweet of you.
+    - so kind of you
+    - that's kind of you.
+    - pleasure to be there, thankyou
+    - ok thanks
+    - ok thankyou
+    - okay thats good
+    - great
+    - fine, thankyou
+    - thankyou so much
+    - thankyou very much
+    - pleasure to be here
+    - alright, thanks
+    - alright, thankyou
+    - kind of you.
+    - pleasure from your side.
+    - got a positive gesture here.
+
+
+- intent: inform
+  examples: |
+    - yes
+    - no
+    - yes I am already registered
+    - no I am not registered
+    - i am already registered
+    - yes registered
+    - not registered yet
+    - already registered
+    - not a member yet
+    - already member of this site
+    - my name is [Jaweria](name)
+    - this is [jaweria](name)
+    - [areeba](name) here
+    - [areeba](name) speaking
+    - you are talking to [neha](name)
+    - I am [neha](name)
+    - my email is [hiyamughal03@gmail.com](email)
+    - email is [hiyamughal03@gmail.com](email)
+    - [hiyamughal03@gmail.com](email) is my email
+    - [hiyamughal03@gmail.com](email) is my emial address
+    - my email address is [hiyamughal03@gmail.com](email)
+    - my level of education is [intermediate](level_of_education)
+    - my qualification is [intermediate](level_of_education)
+    - I have [intermediate](level_of_education) degree
+    - my qualification is [intermediate](level_of_education)
+    - I am having [intermediate](level_of_education)
+    - Having [intermediate](level_of_education) level
+    - currently having [intermediate](level_of_education) degree
+    - [intermediate](level_of_education)
+    - i want to register as [student](register_as)
+    - would like to register as [student](register_as)
+    - will register as [student](register_as)
+    - I am teacher i want to register as [student](register_as) to learn more
+    - want to register as a [student](register_as)
+    - will register as a [student](register_as)
+    - i will join the site as a [teacher](register_as)
+    - will register here as [teacher](register_as)
+    - will join as [teacher](register_as)
+    - i have skills in [computer_science](level_of_courses)
+    - i am skillful in [computer_science](level_of_courses)
+    - [computer_science](level_of_courses) is my experties.
+    - I have experties in [computer_science](level_of_courses). 
+    - my experties are [computer_science](level_of_courses).
+    - my sill set is in the domain [computer_science](level_of_courses)
+    - my course domain is [computer_science](level_of_courses)
+    - i have been working in [computer_science](level_of_courses) since years
+    - i have been involved in [computer_science](level_of_courses) field long time ago.
+    - my involment in [computer_science](level_of_courses) is long ago.
+    - the domain that I am interested is [computer_science](level_of_courses)
+    - the field that i want to learn is [computer_science](level_of_courses)
+    - the field that I want to study is [computer_science](level_of_courses)
+    - i have [not](previous_courses) taken any course here.
+    - [Yes](previous_courses) i've already enrolled in the course.
+    - [Yes](previous_courses) i have already enrolled in the [xyz](course)
+    - you can contact me via email [xyz@gmail.com](contact)
+    - you can contact me via LinkedIn [xyz](contact)
+    - [xyz](contact) can be use to contact me
+    - my contact details are [xyz](contact)
+    - update me to [xyz](contact) with your latest offers and courses.
+    - I want to have updates at [xyz](contact)
+    - i would like to have updates at [xyz](contact)
