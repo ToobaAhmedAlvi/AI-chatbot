@@ -36,14 +36,11 @@ stories:
   - intent: employment 
   - action: utter_employment
 
-<<<<<<< HEAD
-  
-=======
 
 
   
 
->>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
+
 - story: info login 4
   steps:
   - intent: help_info
@@ -86,17 +83,15 @@ stories:
   - intent: course_updates
   - action: utter_updates
   
-<<<<<<< HEAD
-=======
 
->>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
+
 - story: course and contribution info 
   steps: 
   - intent: course_info 
   - action: utter_course_info 
   - intent: contribution 
   - action: utter_contribution
-<<<<<<< HEAD
+
   
 - story: asking_questions
   steps:
@@ -161,5 +156,3 @@ stories:
   - action: utter_confirm_reg
   - intent: deny
   - action: utter_goodbye
-=======
->>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
