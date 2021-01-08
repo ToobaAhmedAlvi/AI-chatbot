@@ -105,14 +105,7 @@ nlu:
     - I want to apply fur a job
     - Do you provide employment opportunities?
     - I am needy.Please help me find a job.
-<<<<<<< HEAD
-    
-=======
 
-
-    
-
->>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
 - intent: help_info
   examples: |
     - how could you help me?
@@ -128,12 +121,10 @@ nlu:
     - Can I access all training?
     - I am interested in stories
     - I need more information about the courses and training
-<<<<<<< HEAD
-=======
 
 
 
->>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
+
 - intent: web_info
   examples: |
     - What services do you provide?
@@ -142,10 +133,9 @@ nlu:
     - I want to know about your website services.
     - Which type of services are available in your website?
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
+
+
 - intent: interest
   examples: |
     - How could I figure out my interest?
@@ -154,14 +144,8 @@ nlu:
     - What should I do to improve my interest?
     - Can you help me to find my interest?
     - I am confuse about my interest.
-<<<<<<< HEAD
 
 
-
-=======
-    
-    
->>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
 - intent: Course_details
   examples: |
     - do you have the service of providing recorded lecture and live sessions to learners?
@@ -174,12 +158,12 @@ nlu:
     - will these helpful for my skills?
     - will these helpful for my career?
     - will these courses help me to enhance my current knowledge and skills?
-<<<<<<< HEAD
-=======
 
 
 
->>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
+
+
+
 - intent: contact_info
   examples: |
     - How can I get the latest updates from your website?
@@ -220,9 +204,11 @@ nlu:
   
 - intent: contribution 
   examples: | 
-<<<<<<< HEAD
+
     -is there any way of contributing my blog on your site 
     -how to become a part of the prozameen educational  platform?
+
+
 - intent: out_of_scope
   examples: |
     - that's not I want
@@ -361,7 +347,3 @@ nlu:
     - update me to [xyz](contact) with your latest offers and courses.
     - I want to have updates at [xyz](contact)
     - i would like to have updates at [xyz](contact)
-=======
-    -  is there any way of contributing my blog on your site 
-    -  how to become a part of the prozameen educational  platform?
->>>>>>> 29f4cce297c12d3c7b8f8a97661df28932964456
